@@ -4,7 +4,7 @@
 
 // Define the variables.
 env.component="shipping"
-codeType="maven"
+env.codeType="maven"
 
 
 // Call the function from shared library
