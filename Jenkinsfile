@@ -7,5 +7,5 @@ env.component="shipping"
 env.codeType="maven"
 
 
-// Call the function from shared library
+// Call the function from shared library.
 cipipeline()
