@@ -1,3 +1,9 @@
 component: shipping
 appPort: 8080
 service_type: ClusterIP
+env: dev
+schema:
+  enabled: true
+  DB_TYPE: mysql
+PARAMETERS: "shipping.dev.DB_HOST,DB_HOST shipping.dev.CART_POD_ENDPOINT,CART_ENDPOINT"
+
